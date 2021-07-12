@@ -15,4 +15,3 @@ This project was developed using HTML, CSS, and jQuery.
 
 In the home page, the infographics are presented in a carousel format. Both Testing Sites and Vaccine Sites pages use an AJAX call to retrieve data from the API. They also use a modal to display additional information about the facility.
 
-This is in partial fulfillment in 
