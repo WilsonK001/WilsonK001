@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Chicago Coronavirus Info</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      charset="utf-8"
+    ></script>
+    <script src="js/test.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span id="close" class="close">&times;</span>
+      <div id="content">Some text in the Modal</div>
+    </div>
+
+  </div>
+ 
+      <header>
+          <h2>Chicago Coronavirus Blog</h2>
+          <img src="https://data.cityofchicago.org/api/assets/73F1665C-0FE6-4183-8AD1-E91DB8EFAFA4?7CB02402-8E06-48B0-8C9A-3890182D58C7.png">
+          <form>
+            <input type="hidden" id="page" value="testing" />
+            <input type="text" id="input" placeholder="Enter your address"/>
+            <input type="submit" id="search" value="Get Testing Sites" />
+        </form>
+      </header>
+  
+
+    <div id="container">
+      <div class="testing">
+        <nav id="menu">
+          <a href="home.html">Home</a>
+          <a class="active" href="test.html">Testing Sites</a>
+          <a href="vaccine.html">Vaccine Sites</a>
+        </nav>
+      </div>
+      <div id="output">
+        Please enter your address to find facilities near you.
+      </div>
+
+    </div>
+  </body>
+</html>
+
